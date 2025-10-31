@@ -1,20 +1,36 @@
 {
-    "pack": 
-        {
-            "pack_format": 1,
-            "description": "",
-            "supported_formats": { "min_inclusive": 1, "max_inclusive": 64 },
-            "min_format": 1,
-            "min_format": 66.0
-        },
-    "overlays":{
-        "entries":[
-        {
-            "directory":"1_20_2_FIX",
-            "formats":[ 16, 64 ],
-            "min_format": 1,
-            "min_format": 66.0
-        }
-        ]
+  "pack": {
+    "description": "§b§lKLXIER §6§lP§l§a§lV§l§c§lP §r§7- §6主包",
+    "min_format": 16,
+    "max_format": [72,0],
+    "pack_format": 16,
+    "supported_formats": {
+      "max_inclusive": 72,
+      "min_inclusive": 16
     }
+  },
+  "features": {
+    "enabled": [
+      "minecraft:redstone_experiments"
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "1_20_2_FIX",
+        "formats": {
+          "min_inclusive": 16,
+          "max_inclusive": 72
+        },
+        "min_format": [
+          16,
+          0
+        ],
+        "max_format": [
+          72,
+          0
+        ]
+      }
+    ]
+  }
 }
