@@ -2,10 +2,10 @@
   "pack": {
     "description": "",
     "min_format": 16,
-    "max_format": [73,0],
+    "max_format": [74,0],
     "pack_format": 16,
     "supported_formats": {
-      "max_inclusive": 73,
+      "max_inclusive": 74,
       "min_inclusive": 16
     }
   },
@@ -20,14 +20,14 @@
         "directory": "1_20_2_FIX",
         "formats": {
           "min_inclusive": 16,
-          "max_inclusive": 73
+          "max_inclusive": 74
         },
         "min_format": [
           16,
           0
         ],
         "max_format": [
-          73,
+          74,
           0
         ]
       }
